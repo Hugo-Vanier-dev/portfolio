@@ -1,0 +1,437 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+#accueil{
+  background-image: url("../img/fond1.jpg");
+  width: 100%;
+  background-size: cover;
+  background-repeat: none;
+}
+#whoAmI{
+  background-image: url("../img/fond2.jpg");
+  width: 100%;
+  background-size: cover;
+  background-repeat: none;
+}
+#skills{
+  background-image: url("../img/fond3.jpg");
+  width: 100%;
+  background-size: cover;
+  background-repeat: none;
+}
+#project{
+  background-color: #1E1E1E;
+  width: 100%;
+}
+#contact{
+  background-image: url("../img/fond5.jpg");
+  width: 100%;
+  background-size: cover;
+  background-repeat: none;
+}
+#darkContainer{
+  background-color: rgba(0,0,0,0.7);
+}
+.smallContainer{
+  margin: auto;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  max-width: 1360px;
+  box-sizing: border-box;
+}
+#smallContainer2, #smallContainer3, #smallContainer4{
+  padding-top: 7%;
+}
+#smallContainer3, #smallContainer4{
+  padding-bottom: 5%;
+}
+#smallContainer5{
+  padding-top: 5%;
+}
+h1{
+  font-size: 13rem;
+  font-family: 'Raleway';
+  line-height: 10rem;
+  text-transform: uppercase;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+h2{
+  font-size: 9rem;
+  line-height: 8rem;
+  display: flex;
+  flex-direction: column;
+  margin : 0px;
+  font-family: 'Poppins';
+  font-weight: bold;
+  width: 100%;
+  text-align: left;
+}
+h3{
+  font-size: 3rem;
+  font-family: 'Poppins';
+  font-weight: bold;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  text-align: center;
+}
+.hElem{
+  display: block;
+}
+nav{
+  position: fixed;
+}
+nav ul li{
+  font-size: 1.5rem;
+  text-align: right;
+  margin-top: 20px;
+  width: 110%;
+}
+nav ul{
+  margin: 0px;
+  list-style: none;
+}
+.navCircle{
+  margin-left: 2%;
+}
+.hiddenNavElem{
+  visibility: hidden;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  text-decoration: none;
+  color: white;
+}
+#logo{
+  margin: 30px;
+  width: 50px;
+  height: 50px;
+}
+p{
+  margin-top: 15%;
+  font-size: 1.3rem;
+  font-family: 'Poppins';
+}
+#firstDescPara{
+  margin-right: 10%;
+}
+#helloMessage{
+  font-family: 'Nunito Sans';
+  font-size: 2rem;
+  text-transform: uppercase;
+  width: 30%;
+  margin-top:0px;
+  font-weight: 900;
+  text-align: left;
+}
+#helloMessageContainer{
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.arrowContainer{
+  text-align: center;
+}
+.arrow{
+  margin-top: 10%;
+}
+#myDescContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.7s linear;
+}
+.lvlList{
+  list-style: none;
+}
+.lvlList li{
+  font-size: 1.5rem;
+  margin-top: 4%;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.lvlContainer{
+  background-color: white;
+  border: solid 1px white;
+  height: 20px;
+  padding: 4px;
+  width: 70%;
+  border-radius: 25px;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+.lvl{
+  border: 1px solid #89DCF2;
+  background-color: #89DCF2;
+  border-radius: 25px;
+  height: 18px;
+}
+#htmlLvl{
+  width: 0%;
+}
+#cssLvl{
+  width: 0%;
+}
+#javascriptLvl{
+  width: 0%;
+}
+#phpLvl{
+  width: 0%;
+}
+#mysqlLvl{
+  width: 0%;
+}
+#bootstrapLvl{
+  width: 0%;
+}
+#wordpressLvl{
+  width: 0%;
+}
+#jqueryLvl{
+  width: 0%;
+}
+#firstArrow:hover{
+  transform: scale(1.3);
+  transition: scale 0.3s;
+}
+#lastArrow{
+  transform: rotate(180deg);
+}
+#lastArrow:hover{
+  transform: rotate(180deg) scale(1.3);
+  transition: scale 0.3s;
+}
+#carousel{
+  margin: auto;
+  box-sizing: border-box;
+  position: relative;
+  height: 85vh;
+}
+#projectContainer{
+  display: flex;
+  flex-direction: row;
+  width: 400%;
+  position: absolute;
+  height: 85vh;
+  transition: transform 0.3s;
+}
+#next:hover{
+  transform: scale(1.3) rotate(-90deg);
+  transition: scale 0.3s;
+}
+#prev:hover{
+  transform: scale(1.3) rotate(90deg);
+  transition: scale 0.3s;
+}
+#next{
+  transform: rotate(-90deg)
+}
+#prev{
+  transform: rotate(90deg);
+}
+#nextPrevContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#carousel{
+  overflow: hidden;
+  overflow-y: auto;
+  margin-top: 5%;
+}
+.project{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 5%;
+  padding: 1%;
+  box-sizing: border-box;
+  margin-top: auto;
+  margin-bottom: auto;
+  box-sizing: border-box;
+}
+.descProjet{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  box-sizing: border-box;
+}
+.projectTittle{
+  margin-bottom: 5%;
+  margin-top: 0px;
+}
+.projectPara{
+  margin-top: 5%;
+  font-size: 1rem;
+}
+.descProjet ul li{
+  list-style: none;
+  font-family: 'Poppins';
+}
+.descProjet ul{
+  list-style: none;
+}
+.projectImg{
+  height: 300px;
+  width: 500px;
+}
+.linkProjet{
+  font-weight: bold;
+}
+#myDescContainer{
+  opacity: 0;
+}
+#descProjet1, #descProjet3{
+  margin-left: 10%;
+}
+#descProjet2, #descProjet4{
+  margin-right: 10%;
+}
+.contactContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5%;
+  text-align: center;
+}
+.contactContainer p {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  text-align: center;
+}
+.contactImgContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.contactImgContainer :nth-child(1){
+  margin-right: 2%;
+}
+#me{
+  text-transform: uppercase;
+}
+
+@media (max-width: 1250px) {
+  h2{
+    font-size: 6rem;
+    line-height: 5rem;
+  }
+  .smallContainer{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media (max-width: 950px) {
+  #helloMessage{
+    font-size: 1.4rem;
+  }
+  .project{
+    flex-direction: column;
+    margin-top: auto;
+    box-sizing: border-box;
+    margin-bottom: auto;
+  }
+  .projectImg{
+    height: 300px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .project a{
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 850px) {
+  .lvlList li{
+    flex-direction: column;
+  }
+
+  h1{
+    font-size: 11rem;
+    line-height: 9rem;
+  }
+  #carousel{
+    margin-top: 3%;
+  }
+}
+@media (max-width: 750px) {
+  h2{
+    font-size: 4rem;
+    line-height: 3rem;
+  }
+  h1{
+    font-size: 8rem;
+    line-height: 7rem;
+  }
+  .smallContainer{
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  h3{
+  font-size: 1.7rem;
+  }
+  p{
+    font-size: 1rem;
+  }
+  #helloMessage, nav ul li, .lvlList li{
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 560px) {
+  #myDescContainer{
+    flex-direction: column;
+  }
+  #secondDescPara{
+    margin-top: 1%;
+  }
+  h1{
+    font-size: 5rem;
+    line-height: 4rem;
+  }
+  h2{
+    font-size: 2.75rem;
+    line-height: 2rem;
+  }
+  h3{
+    font-size: 1.5rem
+  }
+  p{
+    font-size: 0.8rem;
+  }
+  .projectImg{
+    height: 175px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .smallContainer{
+    padding: 5%;
+  }
+  #helloMessage, nav ul li, .lvlList li{
+    font-size: 1rem;
+  }
+}
+@media handeled, (orientation: portrait), (max-width: 560px){
+  #firstArrow{
+    margin-top: 50%;
+  }
+}

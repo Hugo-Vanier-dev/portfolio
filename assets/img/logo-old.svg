@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <g id="Groupe_14" data-name="Groupe 14" transform="translate(-324 -29)">
+    <g id="Ellipse_8" data-name="Ellipse 8" transform="translate(324 29)" fill="#fff" stroke="#fff" stroke-width="3">
+      <circle cx="28" cy="28" r="28" stroke="none"/>
+      <circle cx="28" cy="28" r="26.5" fill="none"/>
+    </g>
+    <text id="H" transform="translate(332 68)" fill="#172534" font-size="30" font-family="NunitoSans-Black, Nunito Sans" font-weight="800"><tspan x="0" y="0">H</tspan></text>
+    <text id="V" transform="translate(350 68)" fill="#172534" font-size="30" font-family="NunitoSans-Black, Nunito Sans" font-weight="800"><tspan x="0" y="0">V</tspan></text>
+  </g>
+</svg>
